@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7DE8088F2E81FBFA00D22024 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8088E2E81FBFA00D22024 /* FirstAppApp.swift */; };
-		7DE808912E81FBFA00D22024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE808902E81FBFA00D22024 /* ContentView.swift */; };
-		7DE808932E81FBFD00D22024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE808922E81FBFD00D22024 /* Assets.xcassets */; };
+		7DE808912E81FBFA00D22024 /* .. in Sources */ = {isa = PBXBuildFile; fileRef = 7DE808902E81FBFA00D22024 /* .. */; };
 		7DE808962E81FBFD00D22024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE808952E81FBFD00D22024 /* Preview Assets.xcassets */; };
 		7DE808A02E81FBFE00D22024 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8089F2E81FBFE00D22024 /* FirstAppTests.swift */; };
 		7DE808AA2E81FBFE00D22024 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE808A92E81FBFE00D22024 /* FirstAppUITests.swift */; };
@@ -35,9 +33,7 @@
 
 /* Begin PBXFileReference section */
 		7DE8088B2E81FBFA00D22024 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE8088E2E81FBFA00D22024 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
-		7DE808902E81FBFA00D22024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7DE808922E81FBFD00D22024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE808902E81FBFA00D22024 /* .. */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ..; sourceTree = "<group>"; };
 		7DE808952E81FBFD00D22024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DE8089B2E81FBFE00D22024 /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE8089F2E81FBFE00D22024 /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
@@ -94,9 +90,7 @@
 		7DE8088D2E81FBFA00D22024 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				7DE8088E2E81FBFA00D22024 /* FirstAppApp.swift */,
-				7DE808902E81FBFA00D22024 /* ContentView.swift */,
-				7DE808922E81FBFD00D22024 /* Assets.xcassets */,
+				7DE808902E81FBFA00D22024 /* .. */,
 				7DE808942E81FBFD00D22024 /* Preview Content */,
 			);
 			path = FirstApp;
@@ -232,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE808962E81FBFD00D22024 /* Preview Assets.xcassets in Resources */,
-				7DE808932E81FBFD00D22024 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE808912E81FBFA00D22024 /* ContentView.swift in Sources */,
-				7DE8088F2E81FBFA00D22024 /* FirstAppApp.swift in Sources */,
+				7DE808912E81FBFA00D22024 /* .. in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +465,6 @@
 		7DE808B32E81FBFE00D22024 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -492,7 +483,6 @@
 		7DE808B42E81FBFE00D22024 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -511,7 +501,6 @@
 		7DE808B62E81FBFE00D22024 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -528,7 +517,6 @@
 		7DE808B72E81FBFE00D22024 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
